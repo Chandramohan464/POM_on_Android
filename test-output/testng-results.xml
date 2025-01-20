@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-10T12:53:44 IST" name="PVR Cinema&#039;s Application Mobile Testing And Test Suites" finished-at="2025-01-10T12:56:49 IST" duration-ms="184908">
+    <groups>
+    </groups>
+    <test started-at="2025-01-10T12:53:44 IST" name="PVR Cinema&#039;s Application Testcases" finished-at="2025-01-10T12:56:49 IST" duration-ms="184908">
+      <class name="automation.pvr.test.PassportPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.PassportPageTest@4b6690c0]" started-at="2025-01-10T12:55:48 IST" name="setUp" finished-at="2025-01-10T12:56:13 IST" duration-ms="25088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePassportPageTest()[pri:0, instance:automation.pvr.test.PassportPageTest@4b6690c0]" started-at="2025-01-10T12:56:13 IST" name="validatePassportPageTest" finished-at="2025-01-10T12:56:23 IST" duration-ms="9780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePassportPageTest -->
+      </class> <!-- automation.pvr.test.PassportPageTest -->
+      <class name="automation.pvr.test.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:53:45 IST" name="setUp" finished-at="2025-01-10T12:54:16 IST" duration-ms="31177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateBookingTest()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:54:16 IST" name="validateBookingTest" finished-at="2025-01-10T12:54:22 IST" duration-ms="6602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateBookingTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:54:22 IST" name="setUp" finished-at="2025-01-10T12:54:51 IST" duration-ms="28336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateNotifyButtonTest()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:54:51 IST" name="validateNotifyButtonTest" finished-at="2025-01-10T12:54:55 IST" duration-ms="4434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNotifyButtonTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:54:55 IST" name="setUp" finished-at="2025-01-10T12:55:22 IST" duration-ms="27182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateProfileTest()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:55:22 IST" name="validateProfileTest" finished-at="2025-01-10T12:55:22 IST" duration-ms="120" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f99fbb96-9e53-4b75-aabe-dffb8138714d, findElement {value=com.net.pvr:id/profileBtn, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f99fbb96-9e53-4b75-aabe-dffb8138714d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f99fbb96-9e53-4b75-aabe-dffb8138714d, findElement {value=com.net.pvr:id/profileBtn, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f99fbb96-9e53-4b75-aabe-dffb8138714d
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at automation.pvr.pages.HomePage.validateProfile(HomePage.java:49)
+at automation.pvr.test.HomePageTest.validateProfileTest(HomePageTest.java:42)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProfileTest -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:55:22 IST" name="setUp" finished-at="2025-01-10T12:55:44 IST" duration-ms="21169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateSearchButtonTest()[pri:0, instance:automation.pvr.test.HomePageTest@22bac7bc]" started-at="2025-01-10T12:55:44 IST" name="validateSearchButtonTest" finished-at="2025-01-10T12:55:48 IST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchButtonTest -->
+      </class> <!-- automation.pvr.test.HomePageTest -->
+      <class name="automation.pvr.test.MorePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.pvr.test.MorePageTest@66565121]" started-at="2025-01-10T12:56:23 IST" name="setUp" finished-at="2025-01-10T12:56:49 IST" duration-ms="26418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateOffersTest()[pri:0, instance:automation.pvr.test.MorePageTest@66565121]" started-at="2025-01-10T12:56:49 IST" name="validateOffersTest" finished-at="2025-01-10T12:56:49 IST" duration-ms="90" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [39e17ad8-b02d-475e-9e12-ed5b383188d3, findElement {value=com.net.pvr:id/moreFragment, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 39e17ad8-b02d-475e-9e12-ed5b383188d3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '20'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [39e17ad8-b02d-475e-9e12-ed5b383188d3, findElement {value=com.net.pvr:id/moreFragment, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 39e17ad8-b02d-475e-9e12-ed5b383188d3
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+at automation.pvr.pages.MorePage.validateOffers(MorePage.java:26)
+at automation.pvr.test.MorePageTest.validateOffersTest(MorePageTest.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateOffersTest -->
+      </class> <!-- automation.pvr.test.MorePageTest -->
+    </test> <!-- PVR Cinema's Application Testcases -->
+  </suite> <!-- PVR Cinema's Application Mobile Testing And Test Suites -->
+</testng-results>

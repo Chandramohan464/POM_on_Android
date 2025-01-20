@@ -1,0 +1,71 @@
+[2025-01-10 13:22:48] [INFO] automation.pvr.test.HomePageTest - Initializing the setup for HomePageTest
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Initializing DesiredCapabilities for the Android driver
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Set deviceName to emulator-5554
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Set platformName to Android
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Set appPackage to com.net.pvr
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Set appActivity to com.net.pvr.ui.home.HomeActivity
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Set platformVersion to 8.1.0
+[2025-01-10 13:22:48] [INFO] automation.pvr.base.BaseClass - Creating AndroidDriver instance and connecting to Appium server
+[2025-01-10 13:23:12] [INFO] automation.pvr.base.BaseClass - Started the automation of PVR Cinemas
+[2025-01-10 13:23:17] [INFO] automation.pvr.pages.HomePage - Initialized HomePage elements
+[2025-01-10 13:23:20] [INFO] automation.pvr.test.HomePageTest - Setup completed successfully
+[2025-01-10 13:23:20] [INFO] automation.pvr.test.HomePageTest - Executing validateNotifyButtonTest
+[2025-01-10 13:23:20] [INFO] automation.pvr.pages.HomePage - Clicking on the Notify button
+[2025-01-10 13:23:30] [INFO] automation.pvr.pages.HomePage - Notification page is displayed
+[2025-01-10 13:23:30] [INFO] automation.pvr.test.HomePageTest - Notify button validation test completed
+[2025-01-10 14:57:47] [INFO] automation.pvr.test.HomePageTest - Initializing the test setup...
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Initializing DesiredCapabilities for the Android driver
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Set deviceName to emulator-5554
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Set platformName to Android
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Set appPackage to com.net.pvr
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Set appActivity to com.net.pvr.ui.home.HomeActivity
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Set platformVersion to 8.1.0
+[2025-01-10 14:57:47] [INFO] automation.pvr.base.BaseClass - Creating AndroidDriver instance and connecting to Appium server
+[2025-01-10 14:58:12] [INFO] automation.pvr.base.BaseClass - Started the automation of PVR Cinemas
+[2025-01-10 14:58:17] [INFO] automation.pvr.pages.MorePage - Initialized MorePage elements
+[2025-01-10 14:58:17] [INFO] automation.pvr.test.HomePageTest - MorePage object created successfully.
+[2025-01-10 14:58:20] [INFO] automation.pvr.test.HomePageTest - Starting the validateOffers test...
+[2025-01-10 14:58:20] [INFO] automation.pvr.pages.MorePage - Clicking on the More button
+[2025-01-10 14:58:29] [INFO] automation.pvr.pages.MorePage - Clicking on the Offers button
+[2025-01-10 15:01:50] [INFO] automation.pvr.test.HomePageTest - Initializing the test setup...
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Initializing DesiredCapabilities for the Android driver
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Set deviceName to emulator-5554
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Set platformName to Android
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Set appPackage to com.net.pvr
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Set appActivity to com.net.pvr.ui.home.HomeActivity
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Set platformVersion to 8.1.0
+[2025-01-10 15:01:50] [INFO] automation.pvr.base.BaseClass - Creating AndroidDriver instance and connecting to Appium server
+[2025-01-10 15:02:16] [INFO] automation.pvr.base.BaseClass - Started the automation of PVR Cinemas
+[2025-01-10 15:02:21] [INFO] automation.pvr.pages.MorePage - Initialized MorePage elements
+[2025-01-10 15:02:21] [INFO] automation.pvr.test.HomePageTest - MorePage object created successfully.
+[2025-01-10 15:02:24] [INFO] automation.pvr.test.HomePageTest - Starting the validateOffers test...
+[2025-01-10 15:02:24] [INFO] automation.pvr.pages.MorePage - Clicking on the More button
+[2025-01-10 15:02:37] [INFO] automation.pvr.pages.MorePage - Clicking on the Offers button
+[2025-01-10 15:11:05] [INFO] automation.pvr.test.HomePageTest - Initializing the test setup...
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Initializing DesiredCapabilities for the Android driver
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Set deviceName to emulator-5554
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Set platformName to Android
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Set appPackage to com.net.pvr
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Set appActivity to com.net.pvr.ui.home.HomeActivity
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Set platformVersion to 8.1.0
+[2025-01-10 15:11:05] [INFO] automation.pvr.base.BaseClass - Creating AndroidDriver instance and connecting to Appium server
+[2025-01-10 15:11:37] [INFO] automation.pvr.base.BaseClass - Started the automation of PVR Cinemas
+[2025-01-10 15:11:42] [INFO] automation.pvr.pages.MorePage - Initialized MorePage elements
+[2025-01-10 15:11:42] [INFO] automation.pvr.test.HomePageTest - MorePage object created successfully.
+[2025-01-10 15:11:45] [INFO] automation.pvr.test.HomePageTest - Starting the validateOffers test...
+[2025-01-10 15:11:45] [INFO] automation.pvr.pages.MorePage - Clicking on the More button
+[2025-01-10 15:11:58] [INFO] automation.pvr.pages.MorePage - Clicking on the Offers button
+[2025-01-10 15:14:35] [INFO] automation.pvr.test.HomePageTest - Initializing the test setup...
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Initializing DesiredCapabilities for the Android driver
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Set deviceName to emulator-5554
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Set platformName to Android
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Set appPackage to com.net.pvr
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Set appActivity to com.net.pvr.ui.home.HomeActivity
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Set platformVersion to 8.1.0
+[2025-01-10 15:14:35] [INFO] automation.pvr.base.BaseClass - Creating AndroidDriver instance and connecting to Appium server
+[2025-01-10 15:15:01] [INFO] automation.pvr.base.BaseClass - Started the automation of PVR Cinemas
+[2025-01-10 15:15:06] [INFO] automation.pvr.pages.MorePage - Initialized MorePage elements
+[2025-01-10 15:15:06] [INFO] automation.pvr.test.HomePageTest - MorePage object created successfully.
+[2025-01-10 15:15:09] [INFO] automation.pvr.test.HomePageTest - Starting the validateOffers test...
+[2025-01-10 15:15:09] [INFO] automation.pvr.pages.MorePage - Clicking on the More button
+[2025-01-10 15:15:19] [INFO] automation.pvr.pages.MorePage - Clicking on the Offers button

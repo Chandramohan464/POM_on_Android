@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PVR Cinema&#039;s Application Mobile Testing And Test Suites]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="automation.pvr.reports.ExtentReport"/>
+  </listeners>
+  <test thread-count="5" name="PVR Cinema&#039;s Application Testcases(failed)">
+    <classes>
+      <class name="automation.pvr.test.HomePageTest">
+        <methods>
+          <include name="validateProfileTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- automation.pvr.test.HomePageTest -->
+      <class name="automation.pvr.test.MorePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="validateOffersTest"/>
+        </methods>
+      </class> <!-- automation.pvr.test.MorePageTest -->
+    </classes>
+  </test> <!-- PVR Cinema's Application Testcases(failed) -->
+</suite> <!-- Failed suite [PVR Cinema's Application Mobile Testing And Test Suites] -->

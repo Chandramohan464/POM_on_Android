@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">PVR Cinema&apos;s Application Mobile Testing And Test Suites</th></tr>
+<tr><td><a href="#t0">PVR Cinema&apos;s Application Testcases</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">184,908</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">PVR Cinema&apos;s Application Mobile Testing And Test Suites</th></tr></tbody><tbody id="t0"><tr><th colspan="4">PVR Cinema&apos;s Application Testcases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">automation.pvr.test.HomePageTest</td><td><a href="#m0">validateProfileTest</a></td><td rowspan="1">1736493922827</td><td rowspan="1">120</td></tr><tr class="failedodd"><td rowspan="1">automation.pvr.test.MorePageTest</td><td><a href="#m1">validateOffersTest</a></td><td rowspan="1">1736494009600</td><td rowspan="1">90</td></tr><tr><th colspan="4">PVR Cinema&apos;s Application Testcases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">automation.pvr.test.HomePageTest</td><td><a href="#m2">validateBookingTest</a></td><td rowspan="1">1736493856264</td><td rowspan="1">6602</td></tr><tr class="passedeven"><td><a href="#m3">validateNotifyButtonTest</a></td><td rowspan="1">1736493891209</td><td rowspan="1">4434</td></tr><tr class="passedeven"><td><a href="#m4">validateSearchButtonTest</a></td><td rowspan="1">1736493944159</td><td rowspan="1">4122</td></tr><tr class="passedodd"><td rowspan="1">automation.pvr.test.PassportPageTest</td><td><a href="#m5">validatePassportPageTest</a></td><td rowspan="1">1736493973391</td><td rowspan="1">9780</td></tr></tbody>
+</table>
+<h2>PVR Cinema&apos;s Application Testcases</h2><h3 id="m0">automation.pvr.test.HomePageTest#validateProfileTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f99fbb96-9e53-4b75-aabe-dffb8138714d, findElement {value=com.net.pvr:id/profileBtn, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: f99fbb96-9e53-4b75-aabe-dffb8138714d
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at automation.pvr.pages.HomePage.validateProfile(HomePage.java:49)
+	at automation.pvr.test.HomePageTest.validateProfileTest(HomePageTest.java:42)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">automation.pvr.test.MorePageTest#validateOffersTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.27.0&apos;, revision: &apos;d6e718d134&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;20&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [39e17ad8-b02d-475e-9e12-ed5b383188d3, findElement {value=com.net.pvr:id/moreFragment, using=id}]
+Capabilities {appium:appActivity: com.net.pvr.ui.home.HomeAct..., appium:appPackage: com.net.pvr, appium:databaseEnabled: false, appium:desired: {appActivity: com.net.pvr.ui.home.HomeAct..., appPackage: com.net.pvr, deviceName: emulator-5554, platformName: ANDROID, platformVersion: 8.1.0}, appium:deviceApiLevel: 27, appium:deviceManufacturer: Google, appium:deviceModel: Android SDK built for x86, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1344x2992, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 8.1.0, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 2776, left: 0, top: 72, width: 1344}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 39e17ad8-b02d-475e-9e12-ed5b383188d3
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:237)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
+	at automation.pvr.pages.MorePage.validateOffers(MorePage.java:26)
+	at automation.pvr.test.MorePageTest.validateOffersTest(MorePageTest.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">automation.pvr.test.HomePageTest#validateBookingTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">automation.pvr.test.HomePageTest#validateNotifyButtonTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">automation.pvr.test.HomePageTest#validateSearchButtonTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">automation.pvr.test.PassportPageTest#validatePassportPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
